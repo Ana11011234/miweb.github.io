@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    <style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background:linear-gradient(to right,#1ece93,#1fa099);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 30%;
+}
+
+.comment-form {
+    width: 30%;
+}
+
+.comment-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form label {
+    margin-top: 10px;
+}
+
+.comment-form input, .comment-form textarea, .comment-form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map {
+    width: 30%;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+    </style>
+
+
+</head>
+<body>
+    <h1>Vicente Van Gogh</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="video.html">Videos</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="contact-info">
+        <h2>Información de Contacto</h2>
+        <p><strong>Dirección:</strong> San Luis 15021 </p>
+        <p><strong>Teléfonos:</strong> 953 987 744 / 965 098 264 / (01) 53742645</p>
+        <p><strong>Email:</strong> info@vicentevangogh.com</p>
+        <p><strong>Horario de Atención Presencial:</strong> <br> Área de Ventas: De Lunes a Viernes de 8am a 6pm</p>
+    </section>
+    <section class="comment-form">
+        <h2>Déjanos tu comentario</h2>
+        <form>
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre">
+            
+            <label for="celular">Celular</label>
+            <input type="text" id="celular" name="celular">
+            
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo">
+            
+            <label for="ruc">RUC - Empresa (Opcional)</label>
+            <input type="text" id="ruc" name="ruc">
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form> 
+    </section>
+    <section class="map">
+        <h2>Mapa</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124846.70696362015!2d-77.08552167214704!3d-12.080657273341334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7c70033f1f7%3A0x54fdcd9707f2bed5!2sCLUSTER%20B%20VIDENA!5e0!3m2!1ses!2spe!4v1719036022040!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</main>
+<footer>
+    <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">TikTok</a></li>
+    </ul>
+</footer>
+</body>
+</html>

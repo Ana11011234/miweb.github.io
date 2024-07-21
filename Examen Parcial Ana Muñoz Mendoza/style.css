@@ -1,0 +1,173 @@
+#fondo{
+    width:300px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+}
+#principal{
+    width: 800px;
+    border:3px solid white;
+    color:white;
+    text-align: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+#menu{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(76, 209, 165);
+    
+    
+
+}
+#menu li{
+ list-style-type: none;
+ margin:10px;
+}
+#menu li a{
+ text-decoration: none;
+ padding:5px;
+ color:white;
+ font-size: 20px;
+ font-weight: bold;
+ gap: 20px;
+}
+
+
+#menu li a:hover{
+    opacity: 0.5; 
+}
+
+#redessociales,a{
+    gap: 20px;
+}
+
+
+main{
+    width:75%;
+    height: 2000px;
+    margin:auto;
+    
+}
+h1{text-align: center;
+}
+#imagen_blog{    
+    text-align: center;
+    display: flex;
+    
+}
+header{
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+
+#texto{
+    display: flex;
+
+}
+
+
+
+.flores{
+    width: 100px;
+}
+
+.van{
+    width: 100px;
+}
+
+h3{
+    justify-content: center;
+
+}
+
+
+
+#logo{
+    float: left;
+    padding: 10px;
+}
+
+
+#galeria{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(145, 235, 208, 0.562);
+}
+figure{
+    
+    padding:20px;
+    text-align: center;
+}
+figure img{
+    width:150px;
+    padding:10px;
+    box-shadow: 5px 5px 5px grey;
+}
+figcaption{
+    padding:10px;
+    font-size: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    text-align: center;
+}
+
+#youtube, #vimeo, footer,#mivideo{
+    text-align: center;
+}
+#logo{
+    float:left;
+    padding:10px;
+}
+
+.resaltar{
+    background-color: rgb(85, 85, 163);
+}
+
+
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure{
+    border: 1px solid cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+
+figure img {
+    border: 1px solid blue;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 15px;
+    height: 300px;
+    width: 1000;
+  
+}
+
+
+
+#imagen1 { filter: grayscale(50%); }
+#imagem2 { filter: sepia(90%); }
+#imagen3 { filter: grayscale(80%); }
+#imagen4 { filter: brightness(70%); }
+#imagen5 { filter: blur(4px); }
+#imagen6 { filter: hue-rotate(50%); }
+
+
+
+
